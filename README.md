@@ -8,26 +8,26 @@ Submission for Bryan Tran Lu.
 
 
 ## Instructions
-The assignment script can be found in the Starter_Code folder. The file name is `forecasting_net_prophet.ipynb`.
+The assignment script can be found in the Starter_Code folder. The file name is `machine_learning_trading_bot.ipynb`.
 
 ## Installation Requirements
 If using Google Colab, installing the following libraries are required prior to running the script:
 ```python
-!pip install pystan
-!pip install prophet
 !pip install hvplot
-!pip install holoviews
 ```
 
 Once installed, import the following:
 ```python
 import pandas as pd
-import holoviews as hv
-from prophet import Prophet
-import hvplot.pandas
-import datetime as dt
+import pandas as pd
 import numpy as np
-%matplotlib inline
+from pathlib import Path
+import hvplot.pandas
+import matplotlib.pyplot as plt
+from sklearn import svm
+from sklearn.preprocessing import StandardScaler
+from pandas.tseries.offsets import DateOffset
+from sklearn.metrics import classification_report
 ```
 
 ## Authors and Support
