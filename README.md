@@ -1,11 +1,8 @@
 ## Module14_Challenge
 
 Submission for Bryan Tran Lu. 
-* Please note that the entirely of this assignment was performed on Google Colab. 
+* Please note that the entirely of this assignment was performed on Google Colab.
 * The csv files to upload to Google Colab are located in the `Resources` folder.
-
-## Description
-
 
 ## Instructions
 The assignment script can be found in the Starter_Code folder. The file name is `machine_learning_trading_bot.ipynb`.
